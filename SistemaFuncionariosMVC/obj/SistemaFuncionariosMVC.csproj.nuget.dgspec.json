@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {}
+    "c:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {
+    "c:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+        "projectUniqueName": "c:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
         "projectName": "SistemaFuncionariosMVC",
-        "projectPath": "C:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
+        "projectPath": "c:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\SistemaFuncionariosMVC.csproj",
         "packagesPath": "C:\\Users\\Senaisp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\obj\\",
+        "outputPath": "c:\\Users\\Senaisp\\Desktop\\SistemaFuncionarios\\SistemaFuncionariosMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,24 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
