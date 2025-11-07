@@ -4,13 +4,13 @@
 
 <form asp-action="Criar">
     <label>Nome:</label>
-    <input type="text" name="nome" class="form-control">
+    <input type="text" name="NomeConstrutor" class="form-control">
 
     <label>Salário Base:</label>
-    <input type="number" name="salarioBase" class="form-control" step="0.01"> @*step -> controla casas decimais*@
+    <input type="number" name="SalarioBaseConstrutor" class="form-control" step="0.01"> @*step -> controla casas decimais*@
 
     <label>Cargo:</label>
-    <select name="cargo">
+    <select name="CargoConstrutor" class="form-control">
         <option value="Gerente">Gerente</option>
         <option value="Vendedor">Vendedor</option>
     </select>
